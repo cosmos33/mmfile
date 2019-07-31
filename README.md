@@ -149,6 +149,13 @@ public static void closeAllQuietly(Closeable... closeable) {
 }
 ```
 
+### 写入内容
+
+```
+MMFileHelper.write(
+        "performance",          // 业务名称
+        "log内容");                 // 内容
+```
 
 ### 可能碰到的情况
 
