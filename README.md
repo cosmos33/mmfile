@@ -40,7 +40,7 @@ MMFileHelper.install(
                                         return true;
                                     }
                                 })
-                        .uploadClockTimeSeconds(5)
+                        // .uploadClockTimeSeconds(900)        // 默认触发提交逻辑为15分钟一次（900秒）
                         .build())
                 .fileWriteConfig(
                         new FileWriteConfig.Builder()
