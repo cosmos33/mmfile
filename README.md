@@ -183,7 +183,7 @@ implementation ('com.cosmos.baseutil:mmfile:3.0.0') {
 ```
 
 ## 文件解析
-文件解析支持`java`、`python`、`c++`三种语言
+文件解析支持`java`、`python`解析
 
 ### Java解析
 通过maven引入解析库
