@@ -216,7 +216,7 @@ MMFileDecompress mmFileDecompress = new MMFileDecompress(new MMTraverseResolver(
     }
 });
 
-mmFileDecompress.decode("/Users/momo/Downloads/mmap/log/xlog_20181129.xlog");
+mmFileDecompress.decode("./xlog_20181129.xlog");
 ```
 
 ### python解析
@@ -233,9 +233,3 @@ python decode_mm_file.py ./xxx.xlog
 ```
 python decode_mm_file.py ./mmfile/
 ```
-
-### C++解析
-
-使用类似Java，见：[MMFileDecompress.h](./compression/MMFileDecompress.h)
-
-
